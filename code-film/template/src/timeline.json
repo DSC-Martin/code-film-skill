@@ -1,0 +1,25 @@
+{
+  "title": "Film",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "overlap": 12,
+  "bpm": 120,
+  "scenes": [
+    { "id": "hook",    "from": 0,   "dur": 120 },
+    { "id": "pain",    "from": 120, "dur": 150 },
+    { "id": "type",    "from": 270, "dur": 240 },
+    { "id": "click",   "from": 510, "dur": 180 },
+    { "id": "overview","from": 690, "dur": 180 },
+    { "id": "outro",   "from": 870, "dur": 150 }
+  ],
+  "sounds": [
+    { "frame": 30,  "type": "bell",   "note": 7, "gain": 0.25 },
+    { "type": "typing", "from": 318, "to": 460 },
+    { "frame": 600, "type": "pop" },
+    { "frame": 612, "type": "bell",   "note": 7, "gain": 0.22 },
+    { "frame": 624, "type": "bell",   "note": 12, "gain": 0.22 },
+    { "frame": 888, "type": "chime" }
+  ],
+  "pad": { "chords": [[48, 55, 59, 64], [45, 52, 55, 60], [41, 48, 52, 57], [43, 50, 55, 59]], "seconds": 7.5 }
+}
